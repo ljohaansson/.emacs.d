@@ -1,0 +1,28 @@
+# Installed packages (regenerable from MELPA via package-install)
+elpa/
+
+# Native compilation cache (regenerated automatically)
+eln-cache/
+
+# Tree-sitter grammars (regenerable via treesit-auto)
+tree-sitter/
+
+# Transient state
+auto-save-list/
+transient/
+url/
+
+# Per-machine personal state
+bookmarks
+projects
+history
+places
+recentf
+
+# Byte-compiled files
+*.elc
+
+# Backup / lock files
+*~
+\#*\#
+.\#*
