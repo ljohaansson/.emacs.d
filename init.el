@@ -4,6 +4,7 @@
 (scroll-bar-mode -1)
 (setq ring-bell-function #'ignore)
 (setq make-backup-files nil)
+(setq confirm-kill-emacs 'yes-or-no-p)
 (set-fringe-style '(1 . 1))
 (blink-cursor-mode -1)
 (setq require-final-newline t)
@@ -114,11 +115,15 @@
   :config
   (setq magit-save-repository-buffers 'dontask)
   :general
-  (my-leader "g g" 'magit))
+  (my-leader "g g" 'magit
+             "g l" 'magit-log-buffer-file
+             "g b" 'magit-blame-addition))
 
 (use-package consult
   :general
   (my-leader "f g" 'consult-ripgrep))
+
+(my-leader "b k" 'kill-current-buffer)
 
 (evil-define-key 'normal org-mode-map (kbd "TAB") 'org-cycle)
 

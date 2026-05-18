@@ -11,12 +11,7 @@
      "d481904809c509641a1a1f1b1eb80b94c58c210145effc2631c1a7f2e4a2fdf4"
      "0325a6b5eea7e5febae709dab35ec8648908af12cf2d2b569bedc8da0a3a81c1"
      default))
- '(package-selected-packages
-   '(apheleia corfu diredfl doom-modeline doom-themes embark-consult
-              evil-anzu evil-collection flymake-collection general
-              hl-todo magit marginalia markdown-mode orderless ox-hugo
-              popper solaire-mode terraform-mode treesit-auto vertico
-              web-mode wgrep)))
+ '(package-selected-packages nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
